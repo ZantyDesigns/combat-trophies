@@ -74,7 +74,7 @@ public interface CombatTrophiesConfig extends Config
 	}
 
 	@Range(min = 0, max = 500)
-	@ConfigItem(keyName = "totalSapphire", name = "Elite (Platinum)", description = "0 hides progress", section = totalsSection, position = 14)
+	@ConfigItem(keyName = "totalSapphire", name = "Elite (Sapphire)", description = "0 hides progress", section = totalsSection, position = 14)
 	default int totalSapphire()
 	{
 		return 0;
