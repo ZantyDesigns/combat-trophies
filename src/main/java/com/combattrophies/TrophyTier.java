@@ -16,7 +16,7 @@ public enum TrophyTier
 	GOLD("Gold", "Hard", new Color(255, 200, 40), new Color(255, 238, 140), new Color(160, 108, 0)),
 	SAPPHIRE("Sapphire", "Elite", new Color(15, 82, 186), new Color(137, 207, 240), new Color(8, 37, 103)),
 	RUBY("Ruby", "Master", new Color(222, 52, 74), new Color(255, 150, 160), new Color(116, 14, 30)),
-	AMETHYST("Amethyst", "Grandmaster", new Color(172, 92, 232), new Color(224, 176, 255), new Color(78, 28, 130)),
+	AMETHYST("Amethyst", "Grand\nmaster", new Color(172, 92, 232), new Color(224, 176, 255), new Color(78, 28, 130)),
 	PLATINUM("Platinum", "Platinum", new Color(120, 190, 235), new Color(215, 240, 255), new Color(50, 92, 150));
 
 	private final String trophyName;
